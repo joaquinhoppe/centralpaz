@@ -1,19 +1,10 @@
-import { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 import './About.css';
 
 const About = () => {
-    const ref = useRef(null);
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ["start end", "end start"]
-    });
-
-    const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
-
     return (
-        <section id="about" className="about" ref={ref}>
+        <section id="about" className="about">
             <div className="container about-grid">
                 <motion.div
                     className="about-content"
