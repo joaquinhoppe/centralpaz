@@ -19,7 +19,7 @@ const About = () => {
                     className="about-content"
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
                     <span className="section-label">Nuestra Filosofía</span>
@@ -39,15 +39,6 @@ const About = () => {
                     </div>
                 </motion.div>
 
-                <div className="about-image-wrapper">
-                    <motion.div
-                        className="about-image"
-                        style={{ y }}
-                    >
-                        {/* High quality interior shot */}
-                        <div style={{ width: '100%', height: '120%', background: 'url(https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80) center/cover grayscale(20%)' }}></div>
-                    </motion.div>
-                </div>
             </div>
         </section>
     );

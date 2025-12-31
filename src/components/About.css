@@ -78,11 +78,11 @@
 @media (max-width: 900px) {
     .about-grid {
         grid-template-columns: 1fr;
-        gap: 64px;
+        gap: 32px;
     }
 
     .about-image-wrapper {
-        height: 400px;
+        height: 250px;
         order: -1;
         /* Image first on mobile? or keep text first. Let's keep text first for flow */
         order: 1;
