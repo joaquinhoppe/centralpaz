@@ -36,11 +36,7 @@ const Navbar = () => {
                     <li><a href={getLink("#contact")} className="nav-link">Location</a></li>
                 </ul>
 
-                <Link to="/booking">
-                    <button className="cta-button-small">
-                        Book Your Stay
-                    </button>
-                </Link>
+
             </div>
         </nav>
     );

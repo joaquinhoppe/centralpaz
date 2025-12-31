@@ -62,8 +62,8 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.8 }}
                 >
-                    <a href="#book" className="cta-button-large">
-                        Check Availability
+                    <a href="#contact" className="cta-button-large">
+                        Contact Us
                     </a>
                 </motion.div>
             </motion.div>
