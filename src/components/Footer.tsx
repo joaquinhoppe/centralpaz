@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Central Paz Hostel. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Central Paz Hostel. Todos los derechos reservados.</p>
                 </div>
             </div>
         </footer>

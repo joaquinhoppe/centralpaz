@@ -19,23 +19,23 @@ const About = () => {
                     className="about-content"
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
+                    viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    <span className="section-label">Our Philosophy</span>
-                    <h2>The Heart of Villa Carlos Paz</h2>
+                    <span className="section-label">Nuestra Filosofía</span>
+                    <h2>El Corazón de Villa Carlos Paz</h2>
                     <p>
-                        Central Paz Hostel offers a unique blend of  <strong>calmness</strong> and <strong>connectivity</strong>.
-                        Located just steps away from the iconic Cuckoo Clock and the vibrant City Hall,
-                        we provide an oasis of elegance in the middle of the action.
+                        Central Paz Hostel ofrece una mezcla única de <strong>calma</strong> y <strong>conectividad</strong>.
+                        Ubicado a pasos del icónico Reloj Cucú y el vibrante Palacio Municipal,
+                        ofrecemos un oasis de elegancia en el medio de la acción.
                     </p>
                     <p>
-                        Whether you are strolling to the Uruguay Bridge or exploring the local shops and restaurants,
-                        everything is within your reach. Returning home means stepping into a space designed for relaxation and refined comfort.
+                        Ya sea que estés paseando hacia el Puente Uruguay o explorando las tiendas y restaurantes locales,
+                        todo está a tu alcance. Volver a casa significa entrar en un espacio diseñado para la relajación y el confort refinado.
                     </p>
                     <div className="location-tag">
                         <MapPin size={20} />
-                        <span>7 min walk to City Hall</span>
+                        <span>7 min caminando al Palacio Municipal</span>
                     </div>
                 </motion.div>
 

@@ -3,10 +3,10 @@ import { ArrowUpRight } from 'lucide-react';
 import './Gallery.css';
 
 const images = [
-    { url: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200', title: 'Luxury Suites', subtitle: 'Rest in style' },
-    { url: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800', title: 'Relaxing Atmosphere', subtitle: 'Unwind completely' },
-    { url: 'https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=800', title: 'Social Lounge', subtitle: 'Meet & Connect' },
-    { url: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800', title: 'Modern Design', subtitle: 'Esthetics everywhere' },
+    { url: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200', title: 'Suites de Lujo', subtitle: 'Descansa con estilo' },
+    { url: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800', title: 'Atmósfera Relajante', subtitle: 'Desconecta completamente' },
+    { url: 'https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=800', title: 'Lounge Social', subtitle: 'Conoce y Conecta' },
+    { url: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800', title: 'Diseño Moderno', subtitle: 'Estética en cada rincón' },
 ];
 
 const Gallery = () => {
@@ -19,8 +19,8 @@ const Gallery = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <span className="section-label">Visual Experience</span>
-                    <h2>A Glimpse of Elegance</h2>
+                    <span className="section-label">Experiencia Visual</span>
+                    <h2>Un Vistazo de Elegancia</h2>
                 </motion.div>
 
                 <div className="gallery-grid">

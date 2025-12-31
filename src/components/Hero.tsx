@@ -53,8 +53,8 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                 >
-                    An elegant escape in the heart of the city. <br />
-                    Experience refined comfort and community.
+                    Un escape elegante en el corazón de la ciudad. <br />
+                    Experimenta el confort refinado y la comunidad.
                 </motion.p>
 
                 <motion.div
@@ -63,7 +63,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.8 }}
                 >
                     <a href="#contact" className="cta-button-large">
-                        Contact Us
+                        Contáctanos
                     </a>
                 </motion.div>
             </motion.div>

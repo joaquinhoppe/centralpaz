@@ -13,11 +13,11 @@ const Contact = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                 >
-                    <span className="section-label">Find Us</span>
-                    <h2>Begin Your Journey</h2>
+                    <span className="section-label">Encuéntranos</span>
+                    <h2>Comienza Tu Viaje</h2>
                     <p>
-                        Experience the best of Villa Carlos Paz from our doorstep.
-                        We are ready to welcome you.
+                        Experimenta lo mejor de Villa Carlos Paz desde nuestra puerta.
+                        Estamos listos para recibirte.
                     </p>
 
                     <div className="contact-details">
@@ -26,7 +26,7 @@ const Contact = () => {
                                 <MapPin size={20} />
                             </div>
                             <div className="contact-text">
-                                <span className="label">Address</span>
+                                <span className="label">Dirección</span>
                                 <span className="value">Villa Carlos Paz, Córdoba, Argentina</span>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                                 <Phone size={20} />
                             </div>
                             <div className="contact-text">
-                                <span className="label">Phone</span>
+                                <span className="label">Teléfono</span>
                                 <span className="value">+54 9 3541 123456</span>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="cta-button-text"
                     >
-                        Get Directions <ArrowRight size={18} />
+                        Cómo Llegar <ArrowRight size={18} />
                     </a>
                 </motion.div>
 

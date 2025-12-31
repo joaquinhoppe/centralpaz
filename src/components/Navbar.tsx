@@ -30,10 +30,10 @@ const Navbar = () => {
                 </Link>
 
                 <ul className="nav-links">
-                    <li><a href={getLink("#about")} className="nav-link">About</a></li>
-                    <li><a href={getLink("#amenities")} className="nav-link">Amenities</a></li>
-                    <li><a href={getLink("#gallery")} className="nav-link">Gallery</a></li>
-                    <li><a href={getLink("#contact")} className="nav-link">Location</a></li>
+                    <li><a href={getLink("#about")} className="nav-link">Nosotros</a></li>
+                    <li><a href={getLink("#amenities")} className="nav-link">Servicios</a></li>
+                    <li><a href={getLink("#gallery")} className="nav-link">Galería</a></li>
+                    <li><a href={getLink("#contact")} className="nav-link">Ubicación</a></li>
                 </ul>
 
 
