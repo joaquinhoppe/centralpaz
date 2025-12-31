@@ -1,0 +1,80 @@
+.amenities {
+    padding: var(--spacing-section) 0;
+    /* Slightly different bg to separate sections */
+    background-color: var(--color-surface);
+}
+
+.amenities-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 80px;
+}
+
+.amenities-header h2 {
+    font-size: 3rem;
+    font-family: var(--font-display);
+    color: var(--color-text);
+    margin-bottom: 24px;
+    line-height: 1;
+}
+
+.amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.amenity-card {
+    padding: 48px 32px;
+    border-radius: var(--radius-sm);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.amenity-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0%;
+    background: var(--color-accent);
+    transition: height 0.4s ease;
+}
+
+.amenity-card:hover::before {
+    height: 100%;
+}
+
+.amenity-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.05);
+    /* Slightly lighter on hover */
+}
+
+.amenity-icon {
+    margin-bottom: 24px;
+    color: var(--color-accent);
+    padding: 12px;
+    background: rgba(212, 175, 55, 0.1);
+    border-radius: 50%;
+    display: inline-flex;
+}
+
+.amenity-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+    color: var(--color-text);
+}
+
+.amenity-card p {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+}
